@@ -38,7 +38,6 @@
         e.preventDefault();
 
         const newTask = {
-          id: +new Date,
           title: this.title,
           day: this.day,
           reminder: this.reminder,
